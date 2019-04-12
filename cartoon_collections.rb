@@ -20,6 +20,6 @@ end
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if cheese.include? (cheese_types)
-    cheese_types.index{|x| x == "cheddar"}
+    cheese_types.index{|x| x == cheese_types}
 end
 end
